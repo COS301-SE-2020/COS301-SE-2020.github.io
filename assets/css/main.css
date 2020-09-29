@@ -103,13 +103,14 @@ section, summary, time, mark, audio, video {
 .thumb h2 {
 	background-color: black;
 	font-size: large !important;
-	z-index: 999;
+	z-index: 9;
 	padding: 2px;
 }
 .thumb a {
 	background-color: black;
 	padding: 8px 4px 4px 4px;
 	color: whitesmoke !important;
+ 
 }
  
 .center {
@@ -117,10 +118,77 @@ section, summary, time, mark, audio, video {
 }
 
 .image:hover {
-	opacity: 0.3 !important;
+	opacity: 0.0 !important;
+	z-index: 99999;
+	background-color: white !important;
  
 }
 
+.card-text {
+	color: black;
+	text-align: center;
+	height: 100px;
+	line-height: normal;
+	vertical-align: bottom;
+	font-size: larger;
+  
+}
+.card-text  .icon {
+	font-size: xx-large !important;
+}
+
+
+.card {
+	padding: 20px;
+}
+
+.thumb {
+	background-color: white;
+}
+
+.evo {
+	background-color: #1f2224 !important;
+}
+
+.margin-fix {
+	top: 2px !important;
+	left: 2px;
+	right: 2px;
+	margin: 0 auto !important;
+	position: absolute;
+	padding-bottom: 10px !important;
+}
+
+.owner {
+	display: inline-block;
+}
+
+.owner:hover, .client:hover {
+	z-index: 999999 !important;
+	background-color: white !important;
+}
+
+ 
+
+.client {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	background-position: 50% 50% !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+	max-height: 50%;
+ 
+	position: absolute;
+	margin: 0 auto !important;
+	line-height: 50% !important;
+	left: 0;
+	right: 0;
+	/* width: 95%; */
+	max-width: 95%;
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+ 
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -196,7 +264,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242629;
+		background: #242629 ;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {

@@ -100,6 +100,8 @@ section, summary, time, mark, audio, video {
 	padding-left: 10px; 
 }
 
+
+
 .thumb h2 {
 	background-color: black;
 	font-size: large !important;
@@ -144,6 +146,10 @@ section, summary, time, mark, audio, video {
 
 .thumb {
 	background-color: white;
+}
+
+article {
+	border: 2px solid white;
 }
 
 .evo {

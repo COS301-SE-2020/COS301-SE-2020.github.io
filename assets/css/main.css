@@ -141,6 +141,13 @@ section, summary, time, mark, audio, video {
 
 .card-footer {
 	background-color: white;
+	border: none;
+}
+
+.card-body a {
+	vertical-align: middle !important;
+	line-height: 100%;
+	border: 0;
 }
 
 .card {
